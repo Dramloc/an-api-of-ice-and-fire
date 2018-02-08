@@ -1,0 +1,34 @@
+{
+  "name": "an-api-of-ice-and-fire",
+  "version": "1.0.0",
+  "description": "An API of Ice and Fire",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "serve": "nodemon src/index.js",
+    "lint": "eslint ."
+  },
+  "author": "Antoine Colmard <a.colmard@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "flatten": "^1.0.2",
+    "helmet": "^3.9.0",
+    "morgan": "^1.9.0",
+    "only": "^0.0.2",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.12.1"
+  }
+}
